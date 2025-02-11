@@ -1,0 +1,29 @@
+/* STYLE GENERAL */
+body {
+
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", serif;
+
+  border: 1px red solid;
+
+  background-color: var(--white-color);
+}
+
+:root {
+  --dark-color : #1F2937;
+  --button-color: #3882F6;
+  --white-color:#F9FAF8;
+  --grey-color : #E5E7EB;
+}
+
+button {
+  background-color: var(--button-color);
+  color: var(--white-color);
+
+  border: none;
+  border-radius: 10px;
+  padding: 7px 30px;
+}
+
