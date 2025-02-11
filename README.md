@@ -2,8 +2,8 @@
 
 ## La maquette
 
-![Projet à faire](git/image.png)
+![Projet à faire](github/image.png)
 
 ## Les couleurs et font style
 
-![couleurs et font styles](git/image-1.png)
+![couleurs et font styles](github/image-1.png)
