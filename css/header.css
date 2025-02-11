@@ -9,7 +9,7 @@ header {
   font-weight: 200;
   height: 50vh;
 
-  border: 1px green solid;
+  /* border: 1px green solid; */
 
 }
 
@@ -33,7 +33,7 @@ ul,a{
 }
 
 li a{
-  margin-right: 12px;
+  margin-right: 25px;
 }
 
 #presentation {
@@ -48,7 +48,7 @@ li a{
 h2 {
   font-size: 48px;
   font-weight: 900;
-  margin: 0;
+  margin: 0; 
 }
 
 #text p, li a{
