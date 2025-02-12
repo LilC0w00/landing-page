@@ -1,0 +1,63 @@
+
+/* PREMIERE SECTION DE MAIN */
+
+#random-info {
+
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  height: 45vh;
+
+}
+
+#random-info h4 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+#random-info div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 50px;
+
+}
+
+#img-plateau .img_p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  width: 200px;
+}
+
+#img-plateau p {
+  margin-top: 10px;
+  margin-bottom: 0;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+#img-plateau img {
+
+  /* GENERER PAR CHAT GPT POUR LE GRADIENT */
+
+  background: linear-gradient(blue, lightblue, blue); /* Dégradé sur la bordure */
+  background-clip: padding-box, border-box; 
+  background-origin: border-box;
+  padding: 4px; /* Permet de bien afficher la bordure */
+
+  /* GENERER PAR MOI MEME */
+  
+  margin-bottom: 0;
+  object-fit: cover;
+
+  border: 3px transparent solid;
+  border-radius: 20px;
+}

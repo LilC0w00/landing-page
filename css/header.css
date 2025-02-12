@@ -9,13 +9,14 @@ header {
   font-weight: 200;
   height: 50vh;
 
-  /* border: 1px green solid; */
+  border: 1px green solid;
 
 }
 
 nav,ul {
   display: flex;
   flex-direction: row;
+
 }
 
 nav {
