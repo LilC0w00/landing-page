@@ -1,0 +1,46 @@
+/* SECTION PARTIE 3 */
+
+.cta {
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px green solid;
+
+}
+
+#call-to-action {
+  width: 40vw;
+  height: 15vh;
+
+  background-color: var(--button-color);
+  color: var(--white-color);
+
+  border-radius: 10px;
+  padding: 10px 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#CTA-text h5 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#CTA-text p {
+  margin: 0;
+}
+
+#call-to-action button {
+  border: 2px var(--white-color) solid;
+  margin: 0;
+
+}
+
+
+
