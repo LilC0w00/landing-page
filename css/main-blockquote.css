@@ -1,0 +1,37 @@
+/* SECTION PARTIE 2 */
+
+#blockquote {
+
+  height: 40vh;
+
+  margin: 3% 0;
+  padding: 40px 80px;
+
+  background-color: var(--grey-color);
+  color: var(--dark-color);
+  
+  border: 1px red solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#blockquote blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  
+
+}
+
+#blockquote footer {
+  font-weight: bold;
+  font-size: 24px;
+
+  text-align: end;
+
+
+  padding: 10px 0;
+}
