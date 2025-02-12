@@ -1,0 +1,12 @@
+/* PARTIE FOOTER */
+
+.footer {
+  height: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
